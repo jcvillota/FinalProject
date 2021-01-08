@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613276778169",
+    "firebase_url": "https://lovepets-69878.firebaseio.com",
+    "project_id": "lovepets-69878",
+    "storage_bucket": "lovepets-69878.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613276778169:android:4bb3913c0b491ee530e568",
+        "android_client_info": {
+          "package_name": "com.example.lovepets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613276778169-b6jbd8ef76rs5p0de2clh04r0q64cpo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lovepets",
+            "certificate_hash": "10744995e5cd3285512583d7fe4ed4d37c298415"
+          }
+        },
+        {
+          "client_id": "613276778169-i13gbg7q8u5n11q79m58b9eocd5quu0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBxw0mV5r2WtBwrE5DqjO_BnW-jbSSsMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613276778169-i13gbg7q8u5n11q79m58b9eocd5quu0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

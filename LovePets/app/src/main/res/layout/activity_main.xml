@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/trybg">
+
+
+    <EditText
+        android:id="@+id/edit_text_pet_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="8dp"
+        android:hint="Pet Owner" />
+
+    <EditText
+        android:id="@+id/edit_text_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="-23dp"
+        android:drawableStart="@drawable/ic_baseline_phone_24"
+        android:drawablePadding="8dp"
+        android:hint="Contact" />
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:text="Choose File"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/progress_bar"
+        android:layout_below="@+id/button_choose_image"
+        android:layout_marginTop="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="94dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="27dp"
+        android:text="Upload"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"
+        android:drawableEnd="@drawable/ic_baseline_add_photo_alternate_24"
+        android:drawablePadding="5dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/text_view_pets_available"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:gravity="center"
+        android:text="Pets Available"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>
